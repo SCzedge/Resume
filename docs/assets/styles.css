@@ -22,6 +22,16 @@
   border: 1px solid red;
 }
 
-/* .flex-column {
-  flex-direction: column;
-} */
+
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+icon.mail {
+  background-image: url("./icons/mail.svg");
+}
