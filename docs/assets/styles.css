@@ -13,3 +13,15 @@
   .print\:hidden { display: none !important; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 10px; color: #666; }
 }
+
+.flex-2 {
+  flex: 2 1 0%;
+}
+
+.bdr {
+  border: 1px solid red;
+}
+
+/* .flex-column {
+  flex-direction: column;
+} */
